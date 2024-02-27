@@ -5,7 +5,7 @@ const Business = () => {
     return (
         <div className=''>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 max-w-7xl mx-auto '>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 max-w-7xl mx-auto npnp'>
                 <div className='flex justify-center items-center'>
                     <Image
                         alt=''

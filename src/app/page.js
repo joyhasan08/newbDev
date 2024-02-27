@@ -5,6 +5,7 @@ import Footer from "@/components/Footer/Footer";
 import Stats from "@/components/Stats/Stats";
 import StepsSection from "@/components/Steps/StepsSection";
 import TeamSection from "@/components/Team/TeamSection";
+import Testimonial from "@/components/Testimonial/Testimonial";
 import Image from "next/image";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
     <main className="">
       <div>
         <Carousel />
+        <Testimonial />
         <TeamSection />
         <StepsSection />
         <Business />
