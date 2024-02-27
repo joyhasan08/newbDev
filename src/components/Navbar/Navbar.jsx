@@ -1,3 +1,7 @@
+
+
+import DropDown from '@/app/utils/DropDownMenu/DropDown';
+import MyMenu from '@/app/utils/Menu/MyMenu';
 import Image from 'next/image';
 import React from 'react';
 
@@ -25,8 +29,13 @@ const Navbar = () => {
                         <div className="flex-none hidden lg:block">
                             <ul className="menu menu-horizontal text-xl">
                                 {/* Navbar menu content here */}
+
                                 <li><a>About Us</a></li>
                                 <li><a>Contact</a></li>
+                                <li><a><MyMenu /></a></li>
+
+
+
                             </ul>
                         </div>
                     </div>

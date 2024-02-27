@@ -7,6 +7,7 @@ import StepsSection from "@/components/Steps/StepsSection";
 import TeamSection from "@/components/Team/TeamSection";
 import Testimonial from "@/components/Testimonial/Testimonial";
 import Image from "next/image";
+import DropDown from "./utils/DropDownMenu/DropDown";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
         <Business />
         <BusinessGoal />
         <Stats />
+        <div className=" w-fit mx-auto">
+          <DropDown />
+        </div>
         <Footer />
 
 
