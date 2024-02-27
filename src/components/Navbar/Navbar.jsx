@@ -23,10 +23,10 @@ const Navbar = () => {
                             </Image>
                         </div>
                         <div className="flex-none hidden lg:block">
-                            <ul className="menu menu-horizontal">
+                            <ul className="menu menu-horizontal text-xl">
                                 {/* Navbar menu content here */}
-                                <li><a>Navbar Item 1</a></li>
-                                <li><a>Navbar Item 2</a></li>
+                                <li><a>About Us</a></li>
+                                <li><a>Contact</a></li>
                             </ul>
                         </div>
                     </div>

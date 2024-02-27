@@ -3,9 +3,9 @@ import React from 'react';
 
 const Business = () => {
     return (
-        <div className=''>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 max-w-7xl mx-auto npnp'>
+        <div className='p-4'>
+            <span className="block mb-4  font-medium tracki text-center uppercase text-[#F02F65]">Our Goals</span>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 max-w-7xl mx-auto '>
                 <div className='flex justify-center items-center'>
                     <Image
                         alt=''

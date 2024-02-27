@@ -7,7 +7,7 @@ const Carousel = () => {
             <div className="carousel w-full">
                 <div id="slide1" className="carousel-item relative w-full h-[500px]">
                     <Image alt=''
-                        src={'/banner/carousel 1.png'}
+                        src={'/banner/carousel 2.png'}
                         height={500}
                         width={1000}
                         className=' w-full  h-[500px] object-cover'
@@ -19,7 +19,7 @@ const Carousel = () => {
                     </div>
                 </div>
                 <div id="slide2" className="carousel-item relative w-full   h-[500px]">
-                    <Image alt='' src={'/banner/carousel 2.png'} height={500}
+                    <Image alt='' src={'/banner/carousel 1.png'} height={500}
                         width={1000} className='w-full  h-[500px] object-cover' />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" className="btn btn-circle">❮</a>
