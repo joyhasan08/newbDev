@@ -3,8 +3,8 @@ import React from 'react';
 
 const Carousel = () => {
     return (
-        <div>
-            <div className="carousel w-full">
+        <div className='m-4 rounded-lg '>
+            <div className="carousel w-full rounded-lg ">
                 <div id="slide1" className="carousel-item relative w-full h-[500px]">
                     <Image alt=''
                         src={'/banner/carousel 2.png'}
