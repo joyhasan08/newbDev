@@ -21,9 +21,9 @@ export default function Home() {
         <Business />
         <BusinessGoal />
         <Stats />
-        <div className=" w-fit mx-auto">
+        {/* <div className=" w-fit mx-auto">
           <DropDown />
-        </div>
+        </div> */}
         <div className="w-full">
           <SubMenu />
         </div>

@@ -1,5 +1,6 @@
 
 
+import Avatar from '@/app/utils/Avatar';
 import DropDown from '@/app/utils/DropDownMenu/DropDown';
 import DropDownDaisy from '@/app/utils/DropDownMenu/DropDownDaisy';
 import MyMenu from '@/app/utils/Menu/MyMenu';
@@ -34,6 +35,7 @@ const Navbar = () => {
                                 <li><a><DropDownDaisy /></a></li>
                                 <li><a>About Us</a></li>
                                 <li><a>Contact</a></li>
+                                <li><Avatar /></li>
                                 {/* <li><a><MyMenu /></a></li> */}
 
 
