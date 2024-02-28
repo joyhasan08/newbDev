@@ -8,6 +8,7 @@ import TeamSection from "@/components/Team/TeamSection";
 import Testimonial from "@/components/Testimonial/Testimonial";
 import Image from "next/image";
 import DropDown from "./utils/DropDownMenu/DropDown";
+import SubMenu from "@/components/SubMenu/SubMenu";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
         <Stats />
         <div className=" w-fit mx-auto">
           <DropDown />
+        </div>
+        <div className="w-full">
+          <SubMenu />
         </div>
         <Footer />
 

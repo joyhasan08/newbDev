@@ -21,6 +21,7 @@ const Business = () => {
                             Reach Your Business Goals
                             With Our Services
                         </h1>
+                        <div className="divider divider-neutral"></div>
                         <p className='text-lg font-light max-w-96'>
                             Seasoned tech experts providing reliable software development services to match specified requirements, budgets and timeframes.
                         </p>
@@ -32,6 +33,7 @@ const Business = () => {
                             Software
                             Development
                         </h1>
+                        <div className="divider divider-neutral"></div>
                         <h1>
                             Focused On Your Business Success
                         </h1>

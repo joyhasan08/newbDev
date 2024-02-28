@@ -1,6 +1,7 @@
 
 
 import DropDown from '@/app/utils/DropDownMenu/DropDown';
+import DropDownDaisy from '@/app/utils/DropDownMenu/DropDownDaisy';
 import MyMenu from '@/app/utils/Menu/MyMenu';
 import Image from 'next/image';
 import React from 'react';
@@ -27,12 +28,13 @@ const Navbar = () => {
                             </Image>
                         </div>
                         <div className="flex-none hidden lg:block">
-                            <ul className="menu menu-horizontal text-xl">
+                            <ul className="menu menu-horizontal text-xl items-center">
                                 {/* Navbar menu content here */}
 
+                                <li><a><DropDownDaisy /></a></li>
                                 <li><a>About Us</a></li>
                                 <li><a>Contact</a></li>
-                                <li><a><MyMenu /></a></li>
+                                {/* <li><a><MyMenu /></a></li> */}
 
 
 
