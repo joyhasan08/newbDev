@@ -8,6 +8,7 @@ import TeamSection from "@/components/Team/TeamSection";
 import Testimonial from "@/components/Testimonial/Testimonial";
 import Image from "next/image";
 import SubMenu from "@/components/SubMenu/SubMenu";
+import StepsFull from "@/components/Steps/StepsFull";
 
 export default function Home() {
   return (
@@ -15,14 +16,12 @@ export default function Home() {
       <div>
         <Carousel />
         <Testimonial />
-        <TeamSection />
         <StepsSection />
+        <TeamSection />
         <Business />
         <BusinessGoal />
         <Stats />
-        <div className="w-full">
-          <SubMenu />
-        </div>
+        <StepsFull />
         <Footer />
 
 
