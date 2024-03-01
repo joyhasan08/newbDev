@@ -1,9 +1,7 @@
 
 
 import Avatar from '@/app/utils/Avatar';
-import DropDown from '@/app/utils/DropDownMenu/DropDown';
 import DropDownDaisy from '@/app/utils/DropDownMenu/DropDownDaisy';
-import MyMenu from '@/app/utils/Menu/MyMenu';
 import Image from 'next/image';
 import React from 'react';
 
@@ -30,21 +28,15 @@ const Navbar = () => {
                         </div>
                         <div className="flex-none hidden lg:block">
                             <ul className="menu menu-horizontal text-xl items-center">
-                                {/* Navbar menu content here */}
+
 
                                 <li className='hover:text-2xl hover:font-normal' ><a><DropDownDaisy /></a></li>
                                 <li className='hover:text-2xl hover:font-normal' ><a>About Us</a></li>
                                 <li className='hover:text-2xl hover:font-normal' ><a>Contact</a></li>
                                 <li><Avatar /></li>
-                                {/* <li><a><MyMenu /></a></li> */}
-
-
-
                             </ul>
                         </div>
                     </div>
-                    {/* Page content here */}
-                    {/* Content */}
                 </div>
                 <div className="drawer-side z-50">
                     <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
