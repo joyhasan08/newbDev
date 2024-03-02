@@ -22,9 +22,6 @@ export default function Home() {
         <BusinessGoal />
         <Stats />
         <StepsFull />
-        <Footer />
-
-
       </div>
     </main>
   );
