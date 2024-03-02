@@ -3,6 +3,7 @@
 import Avatar from '@/app/utils/Avatar';
 import DropDownDaisy from '@/app/utils/DropDownMenu/DropDownDaisy';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
@@ -19,19 +20,19 @@ const Navbar = () => {
                             </label>
                         </div>
                         <div className="flex-1 px-2 mx-2">
-                            <Image alt='main logo'
-                                src={"/icon/logo_primary.png"}
-                                height={200}
-                                width={200}
-                            >
-                            </Image>
+                            <Link href={'/'}>
+                                <Image alt='main logo'
+                                    src={"/icon/logo_primary.png"}
+                                    height={200}
+                                    width={200}
+                                >
+                                </Image>
+                            </Link>
                         </div>
                         <div className="flex-none hidden lg:block">
                             <ul className="menu menu-horizontal text-xl items-center">
-
-
-                                <li className='hover:text-2xl hover:font-normal' ><a><DropDownDaisy /></a></li>
-                                <li className='hover:text-2xl hover:font-normal' ><a>About Us</a></li>
+                                <li className='hover:text-2xl hover:font-normal' ><DropDownDaisy /></li>
+                                <li className='hover:text-2xl hover:font-normal' ><Link href={"/about"} >About Us</Link></li>
                                 <li className='hover:text-2xl hover:font-normal' ><a>Contact</a></li>
                                 <li><Avatar /></li>
                             </ul>
