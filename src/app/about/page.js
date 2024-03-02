@@ -1,5 +1,6 @@
 import BannerAbout from '@/components/Banner/BannerAbout';
 import BreadCrumbeAbout from '@/components/Breadcrumb/BreadCrumbeAbout';
+import AboutTeam from '@/components/Team/AboutTeam';
 import React from 'react';
 
 const AboutPage = () => {
@@ -8,6 +9,7 @@ const AboutPage = () => {
 
             <BreadCrumbeAbout />
             <BannerAbout />
+            <AboutTeam />
         </div>
     );
 };
