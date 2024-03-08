@@ -3,7 +3,8 @@ import React from 'react';
 const BannerAbout = () => {
     return (
         <div>
-            <div className="w-full dark:bg-gray-500 rounded-lg" >
+            <div className="w-full  rounded-lg bg-[url('https://source.unsplash.com/random/640x480')] bg-no-repeat bg-cover  " >
+
                 {/* style="background-image: url('https://source.unsplash.com/random/640x480'); background-position: center center; background-blend-mode: multiply; background-size: cover;" */}
                 <div className="container flex flex-col flex-wrap content-center justify-center p-4 py-20 mx-auto md:p-10">
                     <h1 className="text-5xl antialiased font-semibold leadi text-center dark:text-gray-100">Get Our Updates</h1>
